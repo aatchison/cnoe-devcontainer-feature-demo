@@ -14,7 +14,7 @@
 		// "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {},
 		"ghcr.io/rio/features/vcluster:1": {},
 		// cnoe-io specific laters
-		"ghcr.io/aatchison/features/idpbuilder:2": {},
+		"ghcr.io/aatchison/features/idpbuilder:2.8.0": {},
 		"ghcr.io/aatchison/features/cnoe-cli:1": {}
 	},
 
