@@ -17,10 +17,12 @@ pushd generated
 echo "Running cnoe template command..."
 cnoe template crd -i ../examples/cnoe-cli/spark/ -t ../examples/cnoe-cli/k8s-apply-template.yaml
 
-echo "Applying generated files with kubectl..."
-kubectl apply -f .
+echo "Generated files:"
+ls -la
 
-sleep 5
+echo "Skipping kubectl apply since no cluster is available in this isolated container"
+echo "In a real scenario, these files would be applied to a Kubernetes cluster"
+
 # clean up
 echo "Cleaning up..."
 popd
